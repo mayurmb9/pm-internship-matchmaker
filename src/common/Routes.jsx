@@ -1,0 +1,27 @@
+export const Route_Strings = {
+  LOGIN: 'LoginScreen',
+  OTP_VERIFY: 'OtpVerifyScreen',
+  REGISTER: 'RegisterScreen',
+  DASHBOARD: 'DashboardScreen',
+  DRAWER: 'DrawerNavigator',
+  BOTTOM_TAB: 'BottomTabNavigator',
+  STACK: 'StackNavigator',
+  PROFILE: 'ProfileScreen',
+  PROFILE_UPDATE: 'ProfileUpdateScreen',
+  SETTINGS: 'SettingsScreen',
+  NOTIFICATIONS: 'NotificationsScreen',
+  INTERNSHIP_DETAILS: 'InternshipDetails',
+  INTERNSHIP_LIST: 'InternshipListScreen',
+  APPLICATION_STATUS: 'ApplicationStatusScreen',
+  EMPLOYER_VIEW: 'EmployerViewScreen',
+  ADMIN_PANEL: 'AdminPanelScreen',
+  COMMUNITY_FORUMS: 'CommunityForumsScreen',
+  RESOURCE_LIBRARY: 'ResourceLibraryScreen',
+  CASE_BANK: 'CaseBankScreen',
+  MENTORSHIP: 'MentorshipScreen',
+  AI_CAREER_COACH: 'AICareerCoachScreen',
+  LIVE_WORKSHOPS: 'LiveWorkshopsScreen',
+  ROLES: 'RoleScreen',
+};
+
+export default Route_Strings;

@@ -1,0 +1,18 @@
+export const Constants = {
+  APP_NAME: 'PM Internship Matchmaker',
+  AADHAAR_LENGTH: 12,
+  PAN_LENGTH: 10,
+  MOBILE_LENGTH: 10,
+  API_TIMEOUT: 30000,
+  TOKEN_EXPIRY: 3600,
+  MAX_RETRY: 3,
+  PAGINATION_LIMIT: 20,
+  ANIMATION_DURATION: 300,
+  INPUT_MAX_LENGTH: 100,
+  OTP_LENGTH: 6,
+  DEBOUNCE_DELAY: 500,
+  MIN_AGE: 21,
+  MAX_AGE: 24,
+};
+
+export default Constants;

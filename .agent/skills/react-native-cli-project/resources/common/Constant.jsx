@@ -1,0 +1,13 @@
+export const Constants = {
+  APP_NAME: 'MyApp',
+  API_TIMEOUT: 30000,
+  TOKEN_EXPIRY: 3600,
+  MAX_RETRY: 3,
+  PAGINATION_LIMIT: 20,
+  ANIMATION_DURATION: 300,
+  INPUT_MAX_LENGTH: 100,
+  OTP_LENGTH: 6,
+  DEBOUNCE_DELAY: 500,
+};
+
+export default Constants;

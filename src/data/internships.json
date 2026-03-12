@@ -1,0 +1,222 @@
+[
+  {
+    "id": 1,
+    "title": "Finance Intern",
+    "organization": "Ministry of Finance",
+    "location": "New Delhi",
+    "skills": ["Accounting", "Excel", "Data Analysis"],
+    "interests": ["Finance", "Public Sector"],
+    "stipend": "15,000",
+    "duration": "3 Months",
+    "description": "Analyze financial data and support policy implementation in the Ministry of Finance."
+  },
+  {
+    "id": 2,
+    "title": "Mining Operations Intern",
+    "organization": "Coal India Limited",
+    "location": "Kolkata",
+    "skills": ["Engineering", "Mining", "Safety"],
+    "interests": ["Mining", "Heavy Industry"],
+    "stipend": "12,000",
+    "duration": "6 Months",
+    "description": "Assist in day-to-day mining operations and safety inspections at Coal India."
+  },
+  {
+    "id": 3,
+    "title": "Digital Literacy Trainer",
+    "organization": "Digital India Initiative",
+    "location": "Remote (Rural focus)",
+    "skills": ["Teaching", "Digital Tools", "Communication"],
+    "interests": ["Education", "Social Work"],
+    "stipend": "10,000",
+    "duration": "2 Months",
+    "description": "Train rural youth in basic digital tools and internet safety."
+  },
+  {
+    "id": 4,
+    "title": "Agritech Research Intern",
+    "organization": "ICAR - Indian Council of Agricultural Research",
+    "location": "Bhopal",
+    "skills": ["Agriculture", "Biology", "Research"],
+    "interests": ["Farming", "Science"],
+    "stipend": "18,000",
+    "duration": "4 Months",
+    "description": "Contribute to research projects focused on improving crop yields and sustainable farming."
+  },
+  {
+    "id": 5,
+    "title": "Web Development Intern",
+    "organization": "NIC - National Informatics Centre",
+    "location": "Chennai",
+    "skills": ["React", "JavaScript", "HTML/CSS"],
+    "interests": ["Technology", "Software"],
+    "stipend": "20,000",
+    "duration": "6 Months",
+    "description": "Help develop and maintain government portals using modern web technologies."
+  },
+  {
+    "id": 6,
+    "title": "Policy Analysis Intern",
+    "organization": "NITI Aayog",
+    "location": "New Delhi",
+    "skills": ["Economics", "Writing", "Research"],
+    "interests": ["Public Policy", "Governance"],
+    "stipend": "25,000",
+    "duration": "3 Months",
+    "description": "Support NITI Aayog's policy research across various sectors like health and education."
+  },
+  {
+    "id": 7,
+    "title": "Mechanical Engineering Intern",
+    "organization": "BHEL - Bharat Heavy Electricals Limited",
+    "location": "Bhopal",
+    "skills": ["AutoCAD", "Mechanical Design", "Thermodynamics"],
+    "interests": ["Engineering", "Manufacturing"],
+    "stipend": "15,000",
+    "duration": "6 Months",
+    "description": "Work on power plant equipment design and testing at BHEL's manufacturing units."
+  },
+  {
+    "id": 8,
+    "title": "Logistics Intern",
+    "organization": "India Post",
+    "location": "Mumbai",
+    "skills": ["Management", "Planning", "Logistics"],
+    "interests": ["Operations", "Supply Chain"],
+    "stipend": "10,000",
+    "duration": "3 Months",
+    "description": "Assist in the optimization of mail delivery networks and logistics management."
+  },
+  {
+    "id": 9,
+    "title": "Social Media Marketing Intern",
+    "organization": "Ministry of Tourism",
+    "location": "Incredible India Campaign",
+    "skills": ["Content Creation", "Social Media", "Graphic Design"],
+    "interests": ["Marketing", "Tourism"],
+    "stipend": "12,000",
+    "duration": "4 Months",
+    "description": "Promote Indian tourism through creative social media content and digital marketing."
+  },
+  {
+    "id": 10,
+    "title": "Data Science Intern",
+    "organization": "ISRO - Indian Space Research Organisation",
+    "location": "Bengaluru",
+    "skills": ["Python", "Machine Learning", "Statistics"],
+    "interests": ["Space", "Science"],
+    "stipend": "30,000",
+    "duration": "6 Months",
+    "description": "Apply data science techniques to satellite imagery and astronomical data sets."
+  },
+  {
+    "id": 11,
+    "title": "Health Administration Intern",
+    "organization": "NHM - National Health Mission",
+    "location": "Lucknow",
+    "skills": ["Public Health", "Administration", "Reporting"],
+    "interests": ["Health", "Public Service"],
+    "stipend": "12,000",
+    "duration": "3 Months",
+    "description": "Coordinate health programs and support administrative tasks in government hospitals."
+  },
+  {
+    "id": 12,
+    "title": "Textile Design Intern",
+    "organization": "National Textile Corporation",
+    "location": "Ahmedabad",
+    "skills": ["Design", "Textiles", "Creativity"],
+    "interests": ["Fashion", "Design"],
+    "stipend": "10,000",
+    "duration": "4 Months",
+    "description": "Collaborate with designers to create modern textile patterns and quality assurance."
+  },
+  {
+    "id": 13,
+    "title": "Railway Safety Intern",
+    "organization": "Indian Railways",
+    "location": "Secunderabad",
+    "skills": ["Safety Audits", "Analysis", "Documentation"],
+    "interests": ["Transportation", "Safety"],
+    "stipend": "14,000",
+    "duration": "5 Months",
+    "description": "Assist in conducting safety audits and documenting maintenance procedures for tracks."
+  },
+  {
+    "id": 14,
+    "title": "Environmental Science Intern",
+    "organization": "CPCB - Central Pollution Control Board",
+    "location": "Delhi",
+    "skills": ["Environment", "Sampling", "Data Monitoring"],
+    "interests": ["Sustainability", "Science"],
+    "stipend": "15,000",
+    "duration": "3 Months",
+    "description": "Collect and analyze air and water quality samples for environmental monitoring."
+  },
+  {
+    "id": 15,
+    "title": "Legal Intern",
+    "organization": "Law Ministry of India",
+    "location": "New Delhi",
+    "skills": ["Legal Research", "Drafting", "Case Analysis"],
+    "interests": ["Law", "Governance"],
+    "stipend": "20,000",
+    "duration": "2 Months",
+    "description": "Assist in legal drafting and conducting extensive research on constitutional laws."
+  },
+  {
+    "id": 16,
+    "title": "Journalism Intern",
+    "organization": "Prasar Bharati (DD News)",
+    "location": "New Delhi",
+    "skills": ["Writing", "Editing", "Reporting"],
+    "interests": ["Media", "Journalism"],
+    "stipend": "12,000",
+    "duration": "3 Months",
+    "description": "Gain hands-on experience in news reporting and video editing with Prasar Bharati."
+  },
+  {
+    "id": 17,
+    "title": "Banking Operations Intern",
+    "organization": "State Bank of India (SBI)",
+    "location": "Patna",
+    "skills": ["Banking", "Customer Service", "Documentation"],
+    "interests": ["Finance", "Customer Support"],
+    "stipend": "15,000",
+    "duration": "4 Months",
+    "description": "Understand day-to-day banking operations and assist customers with documentation."
+  },
+  {
+    "id": 18,
+    "title": "Community Outreach Intern",
+    "organization": "Swachh Bharat Mission",
+    "location": "Indore",
+    "skills": ["Communication", "Event Planning", "Empathy"],
+    "interests": ["Social Work", "Community"],
+    "stipend": "8,000",
+    "duration": "3 Months",
+    "description": "Organize community awareness campaigns for hygiene and waste management."
+  },
+  {
+    "id": 19,
+    "title": "IT Support Intern",
+    "organization": "Bharat Electronics Limited (BEL)",
+    "location": "Ghaziabad",
+    "skills": ["Networking", "Troubleshooting", "Hardware"],
+    "interests": ["Technology", "IT Support"],
+    "stipend": "15,000",
+    "duration": "6 Months",
+    "description": "Provide technical support for IT infrastructure and maintain network systems."
+  },
+  {
+    "id": 20,
+    "title": "Rural Development Intern",
+    "organization": "Ministry of Rural Development",
+    "location": "Guwahati",
+    "skills": ["Surveying", "Communication", "Documentation"],
+    "interests": ["Rural Development", "Society"],
+    "stipend": "10,000",
+    "duration": "4 Months",
+    "description": "Work on the ground to monitor rural development schemes and conduct surveys."
+  }
+]
