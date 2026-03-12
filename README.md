@@ -1,97 +1,79 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# PM Internship Matchmaker 🇮🇳
 
-# Getting Started
+**AI-Based Internship Recommendation Engine for PM Internship Scheme (SIH 2025)**
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+A high-performance, cloud-synced React Native application designed to help rural, tribal, and urban-slum youth find 3-5 highly relevant internship opportunities using a weighted AI matching algorithm.
 
-## Step 1: Start Metro
+## 🚀 Key Features
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+- **AI Recommendation Engine**: Weighted matching algorithm (Location 50%, Skills 30%, Interests 20%) fetching live data from Supabase.
+- **Cloud Authentication**: Secure mobile OTP-based login powered by Supabase Auth.
+- **Dynamic Profile Sync**: Seamless bidirectional synchronization of personal and educational data between the app and the cloud.
+- **Government Theme**: High-contrast UI using Navy Blue (#0B3D91) and Saffron (#FF9933) for professional accessibility.
+- **Bilingual Support**: Full support for English and Hindi (localized headers, buttons, and labels).
+- **Dark Mode**: App-wide theme switching for reduced eye strain.
+- **AI Career Coach**: Smart automated guidance for career-related queries.
+- **Comprehensive Modules**: Includes Mentorship, Success Stories, Case Bank, Resource Library, and Community Forums.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+## 🛠 Tech Stack
 
-```sh
-# Using npm
-npm start
+- **Framework**: React Native CLI (Bare Workflow)
+- **Backend**: Supabase (PostgreSQL, Auth, Realtime)
+- **State Management**: Redux Toolkit with Redux Persist
+- **Navigation**: React Navigation (Drawer, Bottom Tabs, Stack)
+- **Icons**: FontAwesome (react-native-vector-icons)
+- **Safe Area**: react-native-safe-area-context for all-device compatibility
 
-# OR using Yarn
-yarn start
+## 📸 Screen Overview
+
+1.  **Dashboard**: Personalized "Top 3-5 Suggestions" with match percentage and profile completion reminders.
+2.  **Internship List**: Advanced filtering by sector (Finance, Engineering, Digital, etc.) and real-time search.
+3.  **Profile Update**: Comprehensive data collection including Aadhaar (Last 4), highest qualification, and passing year.
+4.  **Settings**: Functional toggles for Dark Mode, Notifications, and Language.
+
+## 🏗 Installation & Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/mayurmb9/pm-internship-matchmaker.git
+   cd pm-internship-matchmaker
+   ```
+
+2. **Install dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Configure Fonts (Android)**:
+   Ensure FontAwesome icons are visible by copying fonts to assets:
+   ```powershell
+   # PowerShell
+   Copy-Item -Path 'node_modules/react-native-vector-icons/Fonts/*.ttf' -Destination 'android/app/src/main/assets/fonts/' -Force
+   ```
+
+4. **Run the application**:
+   ```bash
+   npx react-native start --reset-cache
+   npx react-native run-android
+   ```
+
+## 📜 Project Structure
+
+```
+PMInternship/
+├── src/
+│   ├── common/         # Colors, Strings (i18n), Supabase Config, Utils
+│   ├── components/     # Reusable UI (Buttons, Inputs, Dialogs, Loader)
+│   ├── data/           # Mock data and local JSON backups
+│   ├── logic/          # AI Recommendation Engine (Ranking Algorithm)
+│   ├── navigation/     # AppNavigator, Drawer, BottomTab, Stack
+│   ├── Redux/          # Store and UserSlice (Auth/Profile State)
+│   └── screens/        # All 15+ functional screens
+└── android/            # Native Android configuration
 ```
 
-## Step 2: Build and run your app
+## 🏛 SIH 2025 Mission
+This project aims to bridge the digital literacy gap for Indian youth, providing a simplified, localized, and effective portal to enter the professional workforce under the Prime Minister's Internship Scheme.
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
-
-### Android
-
-```sh
-# Using npm
-npm run android
-
-# OR using Yarn
-yarn android
-```
-
-### iOS
-
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
-
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
-
-```sh
-bundle install
-```
-
-Then, and every time you update your native dependencies, run:
-
-```sh
-bundle exec pod install
-```
-
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
-
-```sh
-# Using npm
-npm run ios
-
-# OR using Yarn
-yarn ios
-```
-
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
-
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
-
-## Step 3: Modify your app
-
-Now that you have successfully run the app, let's make changes!
-
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
-
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
-
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
-
-## Congratulations! :tada:
-
-You've successfully run and modified your React Native App. :partying_face:
-
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+---
+**Developed by Mayur Borse**
